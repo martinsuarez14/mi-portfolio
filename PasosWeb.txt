@@ -1,0 +1,33 @@
+PASOS PARA EL DESARROLLO DE UNA WEB
+
+1. Sketch WEB
+    Sentarse con el cliente, dibujar en una hoja con birome y dibujar
+    cómo va a ser la página. Es el prototipo de lo que va a ser la app en el futuro.
+
+2. Wireframes
+    Ya tiene algo de gráficos, títulos. Se usan herramientas profesionales
+    para su desarrollo como Invisius o Figma, es una herramienta
+    para el desarrollo de sketch y wireframes.
+
+3. Prototipo Estático 45%
+    Armado de la página en VSC y muestra al cliente. 
+
+4. Prototipo Dinámico 90%
+    Si le gusta se continúa desarrollando la animación de la misma.
+
+5. Deploy
+    Puesta a producción. Se lleva a un servidor todo lo que funciona
+    dentro de nuestro PC. Además se paga un dominio.
+
+SERVIDORES EN ARGENTINA
+    -
+
+-nic.ar 
+    Comprar el dominio para alcance nacional.
+
+6. Mantenimiento de la App.
+7. Up. Crecimiento de la App.
+
+
+
+
