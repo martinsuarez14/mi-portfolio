@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,28 +9,33 @@
     <link rel="stylesheet" href="css/index.css">
     <script src="js/codigo.js"></script>
 </head>
-<body>
 
-    <header>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="/index.html"><img src="/imagenes/logotipo.jpg" alt="Logo de la página"></a>
+        </div>
         <nav>
-            <ul>
-                <li> <a href="/index.html">Página Principal</a> </li>
-                <li> <a href="./pages/estudios.html">Estudios</a> </li>
-                <li> <a href="./pages/sobre-mi.html">Sobre Mi</a> </li>
-                <li> <a href="./pages/contacto.html">contacto</a> </li>
+            <ul class="nav-links">
+                <li><a href="/pages/proyectos.html">Proyectos</a></li>
+                <li><a href="/pages/estudios.html">Estudios</a></li>
+                <li><a href="/pages/sobre-mi.html">Sobre Mi</a></li>
             </ul>
         </nav>
+        <a href="/pages/contacto.html" class="boton"><button>Contacto</button></a>
     </header>
     <main>
-        <h1>El título perro</h1>
-        <h2>Título nivel 2</h2>
-        <h3>Título nivel 3</h3>
-        <h4>Título nivel 4</h4>
-        <h5>Título nivel 5</h5>
-        <h6>Título nivel 6</h6>
+        <div>
+            <section class="">
+                <h2>Programador Trainee</h2>
+            </section>
+            <section class="presentacion">
+                <p>Hola! Soy Martín Suárez, estoy estudiando programación Web Full Stack!</p>
+            </section>
+        </div>
     </main>
     <footer>
-
     </footer>
 </body>
+
 </html>
