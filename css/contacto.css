@@ -58,7 +58,7 @@ body {
 .header .nav-links li a:hover {
     color: #ffbc0e
 }
-.header .boton button{
+.header .boton button {
     margin-left: 20px;
     font-weight: 700;
     color: #1b3039;
@@ -69,8 +69,77 @@ body {
     cursor: pointer;
     transition: all 0.3 ease 0s;
 }
-.header .boton button:hover{
+
+.header .boton button:hover {
     background-color: #e2f1f8;
     color: #ffbc0e;
     transform: scale(1.1);
+}
+.nav-links{
+    padding-top: 20px;
+}
+.main {
+    background-image: url("../imagenes/contacto.png");
+    height: 700px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+label {
+    color: #333;
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin-left: 3px;
+    margin-top: 8px;
+}
+
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+
+}
+
+.card {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container {
+    float: left;
+}
+
+.col-md-12 .form-group:first-child{
+    text-align: left;
+}
+
+.col-md-12{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.residencia, .redes label, .contactos{
+    text-decoration: underline;
+}
+.footer address, .footer a{
+    text-decoration: none;
+    color: #333;
+}
+.logo-instagram{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
 }
