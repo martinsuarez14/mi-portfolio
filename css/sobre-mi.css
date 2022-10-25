@@ -74,28 +74,13 @@ body {
     color: #ffbc0e;
     transform: scale(1.1);
 }
-
-
-
-
-
-
-
-
-.footer{
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+.nav-links{
+    padding-top: 20px;
 }
-.residencia, .redes label, .contactos{
-    text-decoration: underline;
-}
-.footer address, .footer a{
-    text-decoration: none;
-    color: #333;
-}
-.logo-instagram{
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-}
+
+
+
+
+
+
+
