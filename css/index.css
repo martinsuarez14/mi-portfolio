@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-    background-color: white;
+    background-color: #454e4d;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -25,6 +25,8 @@ body {
     cursor: pointer;
     margin-right: auto;
 }
+
+
 
 .header .logo img {
     height: 70px;
@@ -51,14 +53,15 @@ body {
 
 .header .nav-links a {
     font-size: 700;
-    color: #1b3039;
+    color: #fff59d;
     text-decoration: none;
 }
 
 .header .nav-links li a:hover {
     color: #ffbc0e
 }
-.header .boton button{
+
+.header .boton button {
     margin-left: 20px;
     font-weight: 700;
     color: #1b3039;
@@ -69,19 +72,137 @@ body {
     cursor: pointer;
     transition: all 0.3 ease 0s;
 }
-.header .boton button:hover{
+
+.header .boton button:hover {
     background-color: #e2f1f8;
     color: #ffbc0e;
     transform: scale(1.1);
 }
 
-.nav-links{
+.nav-links {
     padding-top: 20px;
 }
 
+/*PRESENTACIÓN*/
+.presentacion {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-mi {
+    width: 25rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    box-shadow: 0px 2px 15px 2px grey;
+    margin: 20px;
+    transition: all 0.3s;
+}
+.sobre-mi:hover{
+    box-shadow: 0px 2px 15px 2px #dbc70f;
+}
+
+.sobre-mi h3 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.imagen img {
+    height: 27.5rem;
+    width: 27.5rem;
+    margin: 20px;
+}
+
+.mas-sobre-mi {
+    background-color: #f3f2f2;
+    padding: 1rem 6rem;
+}
+
+.mas-sobre-mi h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px 10px;
+    font-family: monospace;
+}
+
+.mas-sobre-mi p {
+    padding: 0.3rem;
+}
 
 
+/*HABILIDADES*/
+.habilidades {
+    margin: 15px 15px;
+    padding: 30px;
+}
+
+.habilidades h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    padding-bottom: 15px;
+}
+
+.habilidades .icono {
+    width: 6rem;
+    height: 6rem;
+    margin: 15px 5px;
+}
+
+.habilidades .top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.habilidades .mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.habilidades .bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.tarjeta-icono {
+    padding: 20px;
+    margin: 10px;
+}
+
+.icono {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px #ac9d9d;
+    transition: all 0.3s;
+}
+
+.icono:hover {
+    transform: scale(1.2);
+    box-shadow: 0 3px 10px #dbc70f;
+}
+
+/*PROYECTOS*/
 
 
+html {
+    scroll-behavior: smooth;
+}
 
-
+.titulo-de-proyectos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    padding-bottom: 15px;
+}
