@@ -199,10 +199,159 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
+
+
+/*ESTILOS DE LA SECTION PROYECTOS*/
+
 .titulo-de-proyectos{
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: monospace;
-    padding-bottom: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+
+.proyectos {
+    margin: 0, 10;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    word-wrap: normal;
+    color: white;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+    width: 18rem;
+    height: auto;
+    background-color: rgb(151, 143, 143);
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+
+.contenedor-tarjetas:hover {
+    transform: scale(1.1);
+    background-color: #dbc70f;
+    cursor: pointer;
+    color: black;
+}
+
+.contenedor-tarjetas img {
+    border-radius: 20px;
+}
+
+/*ESTILOS DEL FORMULARIO DE CONTACTO*/
+
+.contacto {
+    margin: 20px;
+    padding: 0.9rem 16rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(155, 162, 255);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.container h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+form input, form textarea {
+    display: block;
+    padding: 5px;
+    margin: 15px;
+    width: 22rem;
+    border-radius: 10px;
+    border: none;
+}
+
+form input:focus {
+    border: 2px solid #7e4ccb
+}
+
+form button{
+    padding: 5px;
+    margin: 15px;
+    width: 22rem;
+    border-radius: 10px;
+    background-color: #89f767;
+}
+
+/*ESTILOS REDES SOCIALES*/
+
+.redes {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+.redes h3 {
+    font-family: monospace;
+}
+.redes img {
+    width: 60px;
+    transition: all 0.5s;
+}
+
+.redes img:hover {
+    border-radius: 50%;
+    border: 3px solid rgb(0, 34, 128)
+}
+.redes .insta {
+    width: 80px;
+}
+
+/*ESTILOS DEL FOOTER*/
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenido-footer {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.ubicacion, .telefono, .copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p {
+    margin-bottom: 5px;
+}
+
+.footer img {
+    width: 30px;
+}
+footer {
+    background-color: #f8f8f8;
 }
