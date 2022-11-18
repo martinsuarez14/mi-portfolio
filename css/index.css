@@ -79,10 +79,6 @@ body {
     transform: scale(1.1);
 }
 
-.nav-links {
-    padding-top: 20px;
-}
-
 /*PRESENTACIÓN*/
 .presentacion {
     background-color: white;
@@ -100,7 +96,8 @@ body {
     margin: 20px;
     transition: all 0.3s;
 }
-.sobre-mi:hover{
+
+.sobre-mi:hover {
     box-shadow: 0px 2px 15px 2px #dbc70f;
 }
 
@@ -205,7 +202,7 @@ html {
 
 /*ESTILOS DE LA SECTION PROYECTOS*/
 
-.titulo-de-proyectos{
+.titulo-de-proyectos {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -280,7 +277,8 @@ html {
 }
 
 
-form input, form textarea {
+form input,
+form textarea {
     display: block;
     padding: 5px;
     margin: 15px;
@@ -293,7 +291,7 @@ form input:focus {
     border: 2px solid #7e4ccb
 }
 
-form button{
+form button {
     padding: 5px;
     margin: 15px;
     width: 22rem;
@@ -310,9 +308,11 @@ form button{
     justify-content: flex-start;
     gap: 2rem;
 }
+
 .redes h3 {
     font-family: monospace;
 }
+
 .redes img {
     width: 60px;
     transition: all 0.5s;
@@ -322,6 +322,7 @@ form button{
     border-radius: 50%;
     border: 3px solid rgb(0, 34, 128)
 }
+
 .redes .insta {
     width: 80px;
 }
@@ -334,17 +335,21 @@ form button{
     justify-content: center;
     align-items: center;
 }
+
 .contenido-footer {
     display: flex;
     align-items: center;
     gap: 100px;
 }
 
-.ubicacion, .telefono, .copy {
+.ubicacion,
+.telefono,
+.copy {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .footer p {
     margin-bottom: 5px;
 }
@@ -352,6 +357,385 @@ form button{
 .footer img {
     width: 30px;
 }
+
 footer {
     background-color: #f8f8f8;
+}
+
+body {
+    background-color: white;
+}
+
+
+
+
+@media only screen and (max-width: 413px) {
+
+    .header button {
+        display: none;
+    }
+
+    .header {
+        gap: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .presentacion {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 40px;
+        margin: 10px 35px;
+        gap: 0;
+    }
+
+    .sobre-mi {
+        width: 17rem;
+        text-align: justify;
+        font-size: 10px;
+    }
+
+    .imagen img {
+        width: 350px;
+        height: auto;
+    }
+
+    .mas-sobre-mi {
+        padding: 2rem;
+        text-align: justify;
+    }
+
+    .habilidades {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .habilidades .top {
+        gap: 0;
+        display: block;
+        width: 350px;
+    }
+
+    .habilidades .top img {
+        width: 90px;
+        height: auto;
+    }
+
+    .habilidades .mid {
+        gap: 0;
+        display: block;
+        width: 350px;
+    }
+
+    .habilidades .mid img {
+        width: 90px;
+        height: auto;
+    }
+
+    .habilidades .bot {
+        gap: 0;
+        display: block;
+        width: 350px;
+    }
+
+    .habilidades .bot img {
+        width: 90px;
+        height: auto;
+    }
+
+    .titulo-de-proyectos {
+        text-align: center;
+    }
+
+    .proyectos {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contenedor-tarjetas {
+        width: 300px;
+        text-align: justify;
+    }
+
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        padding: 5px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+        padding: 0;
+        width: 345px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+    }
+
+    form input,
+    form textarea,
+    form button {
+        width: 15rem;
+        padding: 5px;
+    }
+
+
+    .redes {
+        gap: 0.1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .contenido-footer {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .mas-sobre-mi h2,
+    .habilidades h2,
+    .titulo-de-proyectos,
+    .titulo h3,
+    .footer h3 {
+        font-size: 30px;
+    }
+
+    body {
+        background-color: white;
+    }
+}
+
+@media only screen and (min-width: 413px) and (max-width: 720px) {
+
+    .header {
+        gap: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .presentacion {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 40px;
+        margin: 10px 35px;
+        gap: 0;
+        flex-wrap: wrap;
+    }
+
+    .sobre-mi {
+        width: 17rem;
+        text-align: justify;
+        font-size: 10px;
+    }
+
+    .imagen img {
+        width: 350px;
+        height: auto;
+    }
+
+    .mas-sobre-mi {
+        padding: 2rem;
+        text-align: justify;
+    }
+
+    .habilidades {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .habilidades .top {
+        display: block;
+        width: 350px;
+    }
+
+    .habilidades .top img {
+        width: 90px;
+        height: auto;
+    }
+
+    .habilidades .mid {
+        gap: 0;
+        display: block;
+        width: 350px;
+    }
+
+    .habilidades .mid img {
+        width: 90px;
+        height: auto;
+    }
+
+    .habilidades .bot {
+        gap: 0;
+        display: block;
+        width: 350px;
+    }
+
+    .habilidades .bot img {
+        width: 90px;
+        height: auto;
+    }
+
+    .titulo-de-proyectos {
+        text-align: center;
+    }
+
+    .proyectos {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contenedor-tarjetas {
+        width: 300px;
+        text-align: justify;
+    }
+
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .container {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .formulario form {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formulario form input {
+        width: 90%;
+        height: 30px;
+        margin: 0.5rem;
+    }
+
+    .formulario form textarea {
+        width: 90%;
+        height: 100px;
+        margin: 0.5rem;
+    }
+
+    .formulario form button {
+        width: 90%;
+        padding: 0.5em 1em;
+        border: none;
+        background: rgb(100, 200, 255);
+        cursor: pointer;
+    }
+
+    .redes {
+        gap: 0.1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenido-footer {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .mas-sobre-mi h2,
+    .habilidades h2,
+    .titulo-de-proyectos,
+    .titulo h3,
+    .footer h3 {
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (min-width: 721px) {
+
+.presentacion {
+    display: flex;
+    flex-direction: row;
+}
+.sobre-mi{
+width: 100%;
+}
+
+.imagen{
+    width: 100%;
+
+}
+.presentacion img {
+    height: auto;
+    width: 100%;
+
+}
+
+.contenedor-tarjetas {
+    width: 20%;
+    display: flex;
+}
+.contenedor-tarjetas p {
+    text-align: justify;
+}
+.contenido-footer p {
+    font-size: 15px;
+}
+
+.contenido-footer a {
+    text-decoration: none;
+}
+
+.contenido-footer {
+    gap: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.mas-sobre-mi h2,
+    .habilidades h2,
+    .titulo-de-proyectos,
+    .titulo h3,
+    .footer h3 {
+        font-size: 30px;
+    }
+
 }
