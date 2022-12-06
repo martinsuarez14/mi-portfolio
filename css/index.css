@@ -45,6 +45,7 @@ body {
 .header .nav-links li {
     display: inline-block;
     padding: 0 20px;
+    margin-top: 25px;
 }
 
 .header .nav-links li:hover {
