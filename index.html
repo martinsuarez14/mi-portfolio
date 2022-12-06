@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- Meta -->
     <meta charset="UTF-8">
@@ -32,7 +31,6 @@
         </nav>
         <a href="#contacto" class="boton"><button>Contacto</button></a>
     </header>
-
     <main>
 
         <!-- Sección Hero -->
@@ -131,12 +129,14 @@
                     <h3>Ponte en Contacto</h3>
                 </div>
                 <div class="formulario">
-                    <form action="">
-                        <input type="text" placeholder="Nombre y Apellido" required>
-                        <input type="email" placeholder="Email" required>
-                        <input type="text" placeholder="Número de teléfono" required>
+                    <form action="https://formsubmit.co/martinsuarez9638@gmail.com" method="POST">
+                        <input name="nombre" type="text" placeholder="Nombre y Apellido" required>
+                        <input name="email" type="email" placeholder="Email" required>
+                        <input name="telefono" type="text" placeholder="Número de teléfono" required>
                         <textarea name="mensaje" cols="30" rows="5" required placeholder="Mensaje"></textarea>
                         <button type="submit">Enviar</button>
+                        <input type="hidden" name="_next" value="http://localhost:5500">
+                        <input type="hidden" name="_captcha" value="false">
                     </form>
                 </div>
             </div>
